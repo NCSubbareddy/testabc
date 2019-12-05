@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_apptest1.sitest43</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sitest43</name>
+        <script><![CDATA[var sitest43 = Class.create();
+sitest43.prototype = {
+    initialize: function() {
+    },
+
+    type: 'sitest43'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-05 11:22:04</sys_created_on>
+        <sys_id>adfab655dde90010964f253c96cb702b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sitest43</sys_name>
+        <sys_package display_value="apptest1" source="x_apptest1">1ada7e15dde90010964f253c96cb7081</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="apptest1">1ada7e15dde90010964f253c96cb7081</sys_scope>
+        <sys_update_name>sys_script_include_adfab655dde90010964f253c96cb702b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-05 11:22:04</sys_updated_on>
+        <x_customapp01_script_1/>
+    </sys_script_include>
+</record_update>
